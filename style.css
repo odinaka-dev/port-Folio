@@ -246,6 +246,53 @@ footer {
     margin: 0px 10px;
     margin-top: 10px;
 }
+/* mobile responsive */
+@media screen and (max-width: 1028px) {
+    nav.navigation-brand, section.portfolio-body, .projects, .footers-portfolio  {
+        max-width: 700px;
+        margin: 0px auto;
+    }
+
+    /* the tablet view */
+    .portfolio-text h1 {
+    color: rgb(15, 7, 44);
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    padding: 15px 0px;
+    }
+    .portfolio-text p {
+    line-height: 1.6;
+    color: rgb(116, 116, 117);
+    font-size: 15px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    }
+    .portfolio-image img {
+        width: 100%;
+    }
+    /* stacks */
+    .stacks article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 30px 0px;
+    }
+    /* projects */
+        .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    font-family: "Poppins", sans-serif;
+    }
+    /* footer */
+    .image-text p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+}
 @media screen and (max-width: 450px) {
     /* the navigattion of the mobile portfolio page */
     html {
